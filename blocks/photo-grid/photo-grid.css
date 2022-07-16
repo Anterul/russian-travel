@@ -6,6 +6,8 @@
   gap: 12px;
   max-width: 288px;
   width: 100%;
+  margin: 0;
+  padding-top: 64px;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,6 +16,7 @@
     grid-template-rows: repeat(auto-fit, 1fr);
     max-width: 720px;
     gap: 14px;
+    padding-top: 88px;
   }
 }
 
@@ -23,6 +26,7 @@
     grid-template-rows: repeat(auto-fit, 1fr);
     max-width: 928px;
     gap: 14px;
+    padding-top: 92px;
   }
 }
 

@@ -10,8 +10,8 @@
   text-decoration: none;
 }
 
-.place__link:hover {
-  opacity: 0.8;
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 @media screen and (min-width: 768px) {

@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 768px) {
   .footer__copyright {
     margin: 0;
     line-height: 16px;

@@ -5,26 +5,23 @@
   justify-items: space-between;
   min-width: 288px;
   max-width: 1184px;
-  width: 90%; /* max-width: 288px */
+  width: calc(100% - (16px * 2));
   min-height: 42px;
   height: 100%;
+  margin: 0;
+  padding-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .header {
-    width: 93.75%; /* max-width: 720px */
+    width: calc(100% - (24px * 2));
     min-height: 52px;
+    padding-top: 28px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
-    width: 90.625%; /* max-width: 928px */
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header {
-    width: 92.5%; /* max-width: 1184px */
+    width: calc(100% - (48px * 2));
   }
 }
