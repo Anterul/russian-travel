@@ -1,7 +1,7 @@
 .place__link {
-  display: grid;
-  min-width: 288px;
-  margin: 12px auto 0;
+  display: flex;
+  margin: 0;
+  padding: 12px 0 0 16px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -17,7 +17,6 @@
 
 @media screen and (min-width: 768px) {
   .place__link {
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-left: 0;
   }
 }

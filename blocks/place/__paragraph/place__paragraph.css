@@ -1,18 +1,24 @@
 .place__paragraph {
-  min-width: 288px;
   margin: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #fff;
+  white-space: pre-line;
 }
 
 .place__paragraph:nth-child(n+2) {
   margin-top: 25px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
+  .place__paragraph {
+    white-space: normal;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
     line-height: 29px;

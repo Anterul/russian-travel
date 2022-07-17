@@ -1,7 +1,7 @@
 .intro__list {
+  display: grid;
+  row-gap: 2px;
   font-style: normal;
-  min-width: 288px;
-  width: 100%;
   margin: 34px 0 0;
   font-size: 12px;
   line-height: 18px;
