@@ -6,4 +6,4 @@
 - Flexbox  
 - Grid Layout
 - BEM  
-4. [Ссылка на GitHub Pages](https://github.com/Anterul/russian-travel)
+4. [Ссылка на GitHub Pages](https://anterul.github.io/russian-travel/)
